@@ -4,3 +4,5 @@
     src: "{{ roles_path }}/files/nvim"
     dest: "~/.config/nvim"
     state: link
+    force: true
+    follow: false
