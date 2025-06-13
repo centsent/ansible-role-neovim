@@ -1,7 +1,7 @@
 ---
 - name: Symlink nvim to ~/.config
   ansible.builtin.file:
-    src: "{{ roles_path }}/files/nvim"
+    src: "{{ role_path }}/files/nvim"
     dest: "~/.config/nvim"
     state: link
     force: true
