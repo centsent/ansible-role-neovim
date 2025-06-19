@@ -23,6 +23,8 @@ local function get_options()
     encoding = default_encoding,
     -- Convert tabs to spaces
     expandtab = true,
+    -- Enable exrc
+    exrc = true,
     -- The encoding written to a file
     fileencoding = default_encoding,
     -- Prefer Unix over Windows Over MacOS formats
