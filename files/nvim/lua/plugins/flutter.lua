@@ -4,6 +4,9 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
+  opts = {
+    flutter_lookup_cmd = "which flutter",
+  },
   keys = {
     { "<leader>rd", "<cmd>FlutterDevices<cr>", desc = "Brings up a list of connected devices to select from" },
     {
